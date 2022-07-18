@@ -4,13 +4,11 @@ const task = new mongoose.Schema({
   title:{
     type:String,
     trim:true,
-    minlength:3,
     required:true
   },
   description:{
     type:String,
     trim:true,
-    minlength:3,
   },
   estimation:{
     type: Number,
