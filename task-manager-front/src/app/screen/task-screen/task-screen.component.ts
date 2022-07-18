@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskScreenComponent implements OnInit {
 
+  taskGroups : any[] = [];
+  tasks : any[] = [];
   constructor() { }
 
   ngOnInit() {
