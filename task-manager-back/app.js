@@ -7,6 +7,9 @@ const routes = require('./routes');
 //routes
 routes(app);
 
+//db
+require('./database/mongoose');
+
 app.use((req, res, next) => {
     const error = createError(404);
     next(error);
